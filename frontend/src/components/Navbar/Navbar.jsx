@@ -10,10 +10,10 @@ const Navbar = () => {
     <div className='Navbar'>
       <img src={assets.pink} alt="" className='logo'/>
       <ul className='Navbar-menu'>
-        <li onclick={() => setMenu("home")} className={menu==="home"?"active":""}>home</li>
-        <li onclick={() => setMenu("menu")} className={menu==="menu"?"active":""}>menu</li>
-        <li onclick={() => setMenu("mobail-app")} className={menu==="mobile-app"?"active":""}>mobile-app</li>
-        <li onclick={() => setMenu("contact-us")} className={menu==="comtact-us"?"active":""}>contact-us</li>
+        <li onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</li>
+        <li onClick={()=>setMenu("mobile-app")} className={menu==="mobile-app"?"active":""}>mobile-app</li>
+        <li onClick={()=>setMenu("contact-us")} className={menu==="contact-us"?"active":""}>contact-us</li>
+        <li onClick={()=>setMenu("menu")} className={menu==="menu"?"active":""}>menu</li>
       </ul>
       <div className="Navbar-right">
         <img src={assets.pink} alt="" />
