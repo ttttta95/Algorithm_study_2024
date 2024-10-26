@@ -8,20 +8,20 @@ const Navbar = () => {
   
   return (
     <div className='Navbar'>
-      <img src={assets.pink} alt="" className='logo'/>
+      <img src={assets.beadal_icon} alt="" className='logo'/>
       <ul className='Navbar-menu'>
         <li onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</li>
-        <li onClick={()=>setMenu("mobile-app")} className={menu==="mobile-app"?"active":""}>mobile-app</li>
-        <li onClick={()=>setMenu("contact-us")} className={menu==="contact-us"?"active":""}>contact-us</li>
         <li onClick={()=>setMenu("menu")} className={menu==="menu"?"active":""}>menu</li>
+        <li onClick={()=>setMenu("mobile-app")} className={menu==="mobile-app"?"active":""}>mobile-app</li>
+        <li onClick={()=>setMenu("contact-us")} className={menu==="contact-us"?"active":""}>contact us</li>
       </ul>
       <div className="Navbar-right">
-        <img src={assets.pink} alt="" />
+        <img src={assets.search_icon} alt="" />
         <div className="Navbar-search-icon">
-          <img src={assets.pink} alt="" />
+          <img src={assets.bag_icon} alt="" />
           <div className="dot"></div>
         </div>
-        <button>sign in</button>
+        <button>Sign In</button>
       </div>
     </div>
   )
