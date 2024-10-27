@@ -1,7 +1,7 @@
 .Header {
     height: 35vw;
     margin: 1px auto;
-    background: url('/Header.png') repeat;
+    background: url('/header.png') repeat;
     background-size: contain;
     position: relative;
     top: -30px;
