@@ -1,9 +1,10 @@
 .Header {
     height: 35vw;
-    margin: 10px auto;
+    margin: 1px auto;
     background: url('/Header.png') repeat;
     background-size: contain;
     position: relative;
+    top: -30px;
 }
 
 .Header-contents {
@@ -13,7 +14,7 @@
     align-items: start;
     gap: 1.5vw;
     max-width: 50%;
-    bottom: 10%;
+    bottom: 15%;
     left: 6vw;
     animation: fadeIn 3s;
 }
